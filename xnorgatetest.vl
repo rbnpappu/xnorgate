@@ -5,7 +5,7 @@ xnorgate my_gate(.a(t_a),.b(t_b),.y(t_y));
 
 initial
 begin
-$motnitor(t_a,t_b,t_y);
+$monitor(t_a,t_b,t_y);
 t_a=1'b 0;
 t_b=1'b 0;
 #5
